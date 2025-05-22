@@ -18,12 +18,19 @@ Tailwind CSS (presumido pela presença de postcss) - Estilização rápida e res
 
 Estrutura do projeto
 components/       # Componentes reutilizáveis como chatbot, header e footer
+
 public/           # Imagens e arquivos públicos
+
 src/app/          # Rotas principais da aplicação
+
   ├── api/        # APIs internas (chatbot)
+  
   ├── cadastro/   # Página de cadastro
+  
   ├── FAQ/        # Página de perguntas frequentes
+  
   ├── login/      # Login e recuperação de senha
+  
   ├── sobre/      # Sobre o sistema e RMs integrantes
 
 Como instalar e rodar o projeto
@@ -71,9 +78,13 @@ Licença
 Este projeto está licenciado sob a MIT License.
 
 Autor
+
 Turma TDSPA
+
 Fabio H S Eduardo - RM560416
+
 Gabriel WU - RM560210
+
 Renato Kenji - RM559810
 
 Contato: [trabalhotdspa@hotmail.com]

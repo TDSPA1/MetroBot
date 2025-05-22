@@ -1,3 +1,4 @@
+'use client'
 export default function RecuperarSenha() {
   return (
     // Container centralizado com fundo cinza claro

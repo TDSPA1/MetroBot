@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+MetroBot - Sistema de Atendimento e Informações do Metrô
 
-## Getting Started
+Descrição.
+O MetroBot é um sistema web desenvolvido com Next.js e TypeScript, que oferece funcionalidades de chatbot para atendimento aos usuários do metrô, além de informações sobre o sistema, FAQs, cadastro de usuários e muito mais.
 
-First, run the development server:
+Tecnologias utilizadas.
+Next.js - Framework React para aplicações web
 
-```bash
+TypeScript - Superset do JavaScript para tipagem estática
+
+PostCSS - Processador de CSS
+
+ESLint - Linter de código para garantir qualidade
+
+React - Biblioteca para construção de interfaces
+
+Tailwind CSS (presumido pela presença de postcss) - Estilização rápida e responsiva
+
+Estrutura do projeto
+components/       # Componentes reutilizáveis como chatbot, header e footer
+public/           # Imagens e arquivos públicos
+src/app/          # Rotas principais da aplicação
+  ├── api/        # APIs internas (chatbot)
+  ├── cadastro/   # Página de cadastro
+  ├── FAQ/        # Página de perguntas frequentes
+  ├── login/      # Login e recuperação de senha
+  ├── sobre/      # Sobre o sistema e RMs integrantes
+
+Como instalar e rodar o projeto
+Clone o repositório:
+git clone <URL_DO_REPOSITORIO>
+cd metrobot
+
+Instale as dependências:
+npm install
+# ou
+yarn install
+
+Execute o projeto em modo de desenvolvimento:
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse http://localhost:3000 no navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Funcionalidades
+✅ Chatbot integrado
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✅ Sistema de login e recuperação de senha
 
-## Learn More
+✅ Página de cadastro de novos usuários
 
-To learn more about Next.js, take a look at the following resources:
+✅ Página de FAQ para dúvidas frequentes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ Página sobre o sistema
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ Layout responsivo e moderno
 
-## Deploy on Vercel
+Como contribuir
+Fork este repositório.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Crie uma branch (git checkout -b feature/sua-feature).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Commit suas mudanças (git commit -m 'Adiciona nova feature').
+
+Push para a branch (git push origin feature/sua-feature).
+
+Abra um Pull Request.
+
+Licença
+Este projeto está licenciado sob a MIT License.
+
+Autor
+Turma TDSPA
+Fabio H S Eduardo - RM560416
+Gabriel WU - RM560210
+Renato Kenji - RM559810
+
+Contato: [trabalhotdspa@hotmail.com]
+

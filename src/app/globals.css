@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
+/* Variáveis de cores globais */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; /* Fundo padrão (tema claro) */
+  --foreground: #171717; /* Texto padrão (tema claro) */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
+/* Tema escuro */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #de4949; /* Fundo para tema escuro */
+    --foreground: #ededed; /* Texto para tema escuro */
   }
 }
 
+/* Estilos globais para responsividade */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background); /* Cor de fundo dinâmica */
+  color: #121010 ; /* Cor do texto dinâmica */
+  font-family: 'Inter', sans-serif; /* Fonte padrão */
+  font-size: 1.1rem; /* Tamanho de fonte padrão */
+  line-height: 1.9; /* Espaçamento entre linhas */
+  margin: 0;
+  font-weight: 700;
+  padding: 0;
+}
+
+/* Ajustes responsivos */
+.container {
+  max-width: 100%; /* Largura total por padrão */
+  padding: 1.5rem; /* Espaçamento interno */
+}
+
+@media (min-width: 640px) { /* Tablet */
+  .container {
+    max-width: 640px; /* Largura máxima para tablets */
+    margin: 0 auto; /* Centraliza o conteúdo */
+  }
+}
+
+@media (min-width: 768px) { /* Dispositivos médios (web) */
+  .container {
+    max-width: 768px; /* Largura máxima para telas médias */
+  }
+}
+
+@media (min-width: 1024px) { /* Desktop */
+  .container {
+    max-width: 1024px; /* Largura máxima para desktops */
+  }
 }

@@ -44,7 +44,7 @@ src/app/          # Rotas principais da aplicação
 
 Como instalar e rodar o projeto
 Clone o repositório:
-git clone <URL_DO_REPOSITORIO>
+git clone <Sprint4-Front-metrobot>
 cd metrobot
 
 Instale as dependências:

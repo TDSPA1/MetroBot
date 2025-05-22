@@ -1,6 +1,6 @@
 import Chatbot from "../../components/chatbot";
 import TestaQuarkus from "../../components/TestaQuarkus";
-import { ResetarSenhaForm } from './ResetarSenhaForm';
+
 export default function Inicio() {
   return (
     <div className="min-h-screen bg-gray-300 flex flex-col items-center justify-center">
@@ -11,7 +11,7 @@ export default function Inicio() {
 
       {/* Chatbot centralizado abaixo do texto */}
       <Chatbot />
-      <ResetarSenha />
+      
       <TestaQuarkus />
     </div>
   );

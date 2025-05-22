@@ -10,7 +10,7 @@ export default function Header() {
       <nav className="container mx-auto flex justify-between items-center">
         {/* Logo do Metrobot com link para a página inicial */}
         <Link href="/" className="flex items-center" aria-label="Ir para a página inicial">
-          <Image src="/images/metrobot.png" alt="Logo do Metrobot" width={200} height={200} />
+          <Image src="/images/metrobot.png" alt="Logo do Metrobot" width={150} height={150} />
         </Link>
 
         {/* Links de navegação */}

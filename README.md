@@ -92,7 +92,7 @@ Este projeto está licenciado sob a MIT License.
 
 Autor
 
-Turma TDSPA
+Turma 1TDSPA
 
 Fabio H S Eduardo - RM560416
 

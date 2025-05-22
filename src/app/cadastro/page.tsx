@@ -1,15 +1,21 @@
 "use client";
 
+// Componente de página de cadastro de usuário
 export default function Cadastro() {
+  // Função chamada ao enviar o formulário
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    alert("Cadastro realizado com sucesso!");
+    event.preventDefault(); // Impede o recarregamento da página
+    alert("Cadastro realizado com sucesso!"); // Mostra alerta de sucesso
   };
 
   return (
+    // Container centralizado com fundo cinza claro
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      {/* Caixa branca centralizada com sombra e bordas arredondadas */}
       <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
+        {/* Título da página */}
         <h1 className="text-2xl font-bold text-center mb-6">Cadastro</h1>
+        {/* Formulário de cadastro */}
         <form onSubmit={handleSubmit} className="space-y-4">
           {/* Campo de nome */}
           <div>

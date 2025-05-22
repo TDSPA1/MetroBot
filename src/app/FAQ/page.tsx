@@ -1,6 +1,8 @@
 "use client";
 
+// Componente de página de Perguntas Frequentes (FAQ)
 export default function FAQ() {
+  // Lista de perguntas e respostas frequentes
   const faqs = [
     {
       question: "Quais são os horários de funcionamento do metrô de São Paulo?",
@@ -45,11 +47,16 @@ export default function FAQ() {
   ];
 
   return (
+    // Container principal com fundo cinza claro e padding
     <div className="min-h-screen bg-gray-100 p-8">
+      {/* Caixa centralizada com fundo branco, bordas arredondadas e sombra */}
       <div className="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+        {/* Título da página */}
         <h1 className="text-3xl font-bold text-center mb-6">Perguntas Frequentes (FAQ)</h1>
+        {/* Lista de perguntas e respostas */}
         <div className="space-y-4">
           {faqs.map((faq, index) => (
+            // Cada pergunta e resposta em uma caixa separada
             <div key={index} className="border-b border-gray-300 pb-4">
               <h2 className="text-lg font-semibold text-blue-600">{faq.question}</h2>
               <p className="text-gray-700 mt-2">{faq.answer}</p>

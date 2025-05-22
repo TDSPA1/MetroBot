@@ -32,7 +32,7 @@ export default function Header() {
             Login
           </Link>
           {/* Link para a página de cadastro */}
-          <Link href="/cadastro" className="text-green-900 hover:underline font-bold" aria-label="Ir para a página de cadastro">
+          <Link href="/cadastro" className="text-green-800 hover:underline font-bold" aria-label="Ir para a página de cadastro">
             Cadastro
           </Link>
         </div>

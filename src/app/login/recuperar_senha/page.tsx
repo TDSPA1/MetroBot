@@ -1,8 +1,12 @@
 export default function RecuperarSenha() {
   return (
+    // Container centralizado com fundo cinza claro
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      {/* Caixa branca centralizada com sombra e bordas arredondadas */}
       <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
+        {/* Título da página */}
         <h1 className="text-2xl font-bold text-center mb-6">Recuperar Senha</h1>
+        {/* Formulário de recuperação de senha */}
         <form className="space-y-4">
           {/* Campo de e-mail */}
           <div>

@@ -1,6 +1,8 @@
 import Image from "next/image";
 
+// Página "Sobre" do projeto MetroBot
 export default function Sobre() {
+  // Lista de integrantes do grupo, com nome, RM, foto e links
   const integrantes = [
     {
       nome: "Fábio H S Eduardo",
@@ -27,16 +29,17 @@ export default function Sobre() {
 
   return (
     <main className="min-h-screen bg-gray-100 p-8">
+      {/* Título principal da página */}
       <h1 className="text-3xl font-bold text-center mb-8">Sobre o Projeto</h1>
 
-      {/* Texto sobre o MetroBot */}
+      {/* Texto descritivo sobre o MetroBot */}
       <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6 mb-12">
         <p className="text-gray-700 leading-relaxed">
           O MetroBot é um assistente virtual para oferecer respostas rápidas e precisas aos passageiros. Ele fornece informações sobre horários, rotas, tarifas e atualizações de serviço. O MetroBot também conta com uma seção de FAQ para tirar dúvidas frequentes de forma prática e eficiente. Disponível 24/7, o assistente visa tornar a experiência de viagem mais ágil e informada, reforçando o compromisso da CCR Metrô São Paulo com a modernização e o atendimento de qualidade.
         </p>
       </div>
 
-      {/* Seção de integrantes */}
+      {/* Seção com os integrantes do grupo */}
       <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
         <h2 className="text-2xl font-semibold mb-4">Integrantes do Grupo</h2>
         <ul className="space-y-6">
@@ -55,11 +58,12 @@ export default function Sobre() {
                   className="object-cover"
                 />
               </div>
-              {/* Nome, RM e Links */}
+              {/* Nome, RM e links do integrante */}
               <div>
                 <span className="block text-lg font-medium">{integrante.nome}</span>
                 <span className="text-gray-500">{integrante.rm}</span>
                 <div className="flex space-x-6 mt-2">
+                  {/* Link para o GitHub */}
                   <a
                     href={integrante.github}
                     target="_blank"
@@ -68,6 +72,7 @@ export default function Sobre() {
                   >
                     GitHub
                   </a>
+                  {/* Link para o LinkedIn */}
                   <a
                     href={integrante.linkedin}
                     target="_blank"

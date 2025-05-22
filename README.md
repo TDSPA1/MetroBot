@@ -57,6 +57,8 @@ npm run dev
 # ou
 yarn dev
 
+LINK DO VIDEO: https://youtu.be/H2aVT2mXdPE
+
 Acesse https://sprint4-front-metrobot.vercel.app/
 
 Acesse http://localhost:3000 no navegador.

@@ -1,7 +1,16 @@
-MetroBot - Sistema de Atendimento e Informações do Metrô
+# MetroBot - Sistema de Atendimento e Informações do Metro
 
-Descrição.
-O MetroBot é um sistema web desenvolvido com Next.js e TypeScript, que oferece funcionalidades de chatbot para atendimento aos usuários do metrô, além de informações sobre o sistema, FAQs, cadastro de usuários e muito mais.
+Este é um projeto [Next.js](https://nextjs.org/) inicializado com [`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app).
+
+## Descrição
+
+O MetroBot é um sistema web desenvolvido com Next.js e TypeScript, que oferece funcionalidades de chatbot para atendimento aos usuários do metro, além de informações sobre o sistema, FAQs, cadastro de usuários e muito mais.
+
+## Começando
+
+Primeiro, execute o servidor de desenvolvimento:
+
+npm run dev
 
 Tecnologias utilizadas.
 Next.js - Framework React para aplicações web
